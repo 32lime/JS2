@@ -11,4 +11,10 @@ Mikä oli haastavaa?
 Mikä oli kivaa?
  Koko palautus oli oikeastaan aika kiva. Pääsi ratkaisemaan paljon mielenkiintoisia ongelmia. Nyt myös tuntuu siltä että osaa oikeasti tehdä jotain sellaisia ominaisuuksia joita löytyy ihan oikeilta nettisivuilta
 
+Valintojen perustelu:
+    Tein nämä JS ominaisuudet koska uskon, että näiden osaamisesta tulee olemaan hyöytyä tulevaisuudessa ja oikeastaan haluan vain oppia käyttämään javascriptiä. 
+
+Tyylillisten valintojen perustelu:
+    Tein uudet stock-sivut tätä projektia varten, koska minulla meni hieman hermot portfoliosivuihini. Toivottavasti nämä riittävät, en käyttänyt juuri lainkaan aikaa responsiivisuuteen, koska ymmärtääkseni se ei vaikuta pisteytykseen tämän tehtävän osalta. 
+
 Linkki sivuille: https://32lime.github.io/JS2/
