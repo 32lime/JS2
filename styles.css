@@ -1,0 +1,245 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 80px;
+    background-color: whitesmoke;
+    
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.modals{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.modal {
+    width: 150px;
+    height: 60px;
+
+    background-color: blanchedalmond;
+
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+}
+
+.modal:hover {
+    width: 146px;
+    height: 56px;
+    border: 2px solid black;
+
+    cursor: pointer;
+
+}
+
+h1{
+    font-size: 20px;
+}
+
+.modal-text {
+    font-size: 18px;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90vw;
+    height: 90vh;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    border: 4px solid black;
+
+
+
+    
+
+}
+
+.exit {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+
+    border-radius: 2px;
+
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+}
+
+.exit:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+
+.popupText{
+    font-size: 25px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.darkmode{
+    height: 18vh;
+
+    margin-right: 15vw;
+    margin-left: 15vw;
+
+    background-color:white;
+
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+    
+
+}
+
+.darkbutton {
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    
+
+    font-size: 30px;
+}
+
+.darkbutton:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.darkmode_on {
+    background-color: grey;
+}
+
+.dropdown_sec{
+    height: 45vh;
+
+    margin-right: 15vw;
+    margin-left: 15vw;
+
+    background-color:white;
+
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+
+}
+
+.dropdown {
+    margin-left: 40px;
+    background-color: powderblue;
+    width: 40vw;
+    height: 60px;
+
+    align-content: center;
+
+    border-radius: 5px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    
+}
+
+.dropdown_text{
+    margin-left: 10px;
+    font-weight: 700;
+    color:black;
+}
+
+.dropdown:hover{
+    background-color: plum;
+    cursor: pointer;
+}
+
+.hidden_text {
+    max-height: 0px;
+    margin-left: 40px;
+    overflow: hidden;
+
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 30px;
+
+    transition: max-height 0.7s ease;
+}
+
+.reveal_text {
+    max-height: 100px;
+    margin-top: 0px;
+    display: block;
+}
+
+.dropdown_dark{
+    background-color: darkolivegreen;
+
+    color:honeydew;
+}
+
+.dark_background{
+    background-color: grey;
+
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.4);
+
+}
+
+.dark_modal {
+    background-color: black;
+    color: white;
+}
+
+.dark_modal:hover {
+    border: 2px solid white;
+
+}
+
+.dark_darkbutton {
+    background-color: black;
+}
+
+.dark_darkbutton:hover{
+    border: 2px solid white;
+}
+
+.whiteText{
+    color: white;
+}
