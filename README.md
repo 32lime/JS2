@@ -11,4 +11,4 @@ Mikä oli haastavaa?
 Mikä oli kivaa?
  Koko palautus oli oikeastaan aika kiva. Pääsi ratkaisemaan paljon mielenkiintoisia ongelmia. Nyt myös tuntuu siltä että osaa oikeasti tehdä jotain sellaisia ominaisuuksia joita löytyy ihan oikeilta nettisivuilta
 
-moii
+Linkki sivuille: https://32lime.github.io/JS2/

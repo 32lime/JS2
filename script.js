@@ -45,8 +45,8 @@ darkButton.addEventListener('click', ()=> { // Tee tää vikana koska niin.
         })
 
         document.querySelector('.dropdown_sec').classList.add('dark_background')
-        document.querySelector('.darkmode').classList.add('dark_background')
-        document.querySelector('.modal').classList.add('dark_modal')
+        document.querySelector('.darkmode').classList.add('dark_background') // Lisää darkmode tyylin kaikille elementeille.
+        document.querySelector('.modal').classList.add('dark_modal')    // Tämän olisi varmasti voinut toteuttaa paljon tehokkaammin...
         document.querySelector('.darkbutton').classList.add('dark_darkbutton')
 
         document.querySelector('.darkbutton').innerText = '🌅'
@@ -74,7 +74,7 @@ darkButton.addEventListener('click', ()=> { // Tee tää vikana koska niin.
 
         document.querySelector('.dropdown_sec').classList.remove('dark_background')
         document.querySelector('.darkmode').classList.remove('dark_background')
-        document.querySelector('.modal').classList.remove('dark_modal')
+        document.querySelector('.modal').classList.remove('dark_modal')   // Poistaa darkmode tyylit kaikilta elementeiltä.
         document.querySelector('.darkbutton').classList.remove('dark_darkbutton')
 
         document.querySelector('.darkbutton').innerText = '🌃'
